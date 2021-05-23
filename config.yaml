@@ -1,0 +1,8 @@
+containerOpts:
+  namespace:  default
+  pod:  kube-attach
+  container:  kube-attach
+  command:
+    - ls
+  tty:  true
+  stdin:  true
